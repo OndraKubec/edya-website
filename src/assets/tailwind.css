@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base{
+    * {
+        @apply font-serif box-border;
+        color: white;
+    }
+    html, body{
+        @apply relative z-0;
+        background: linear-gradient(90deg, #262626 5.16%, #101010 98.89%);
+    }
+    h1{
+        /* landing */
+        @apply font-sans text-4xl text-right tracking-widest leading-snug lg:text-6xl lg:leading-normal xl:text-7xl xl:leading-snug;
+    }
+    .subtitle{
+        @apply text-xl text-right tracking-wider pt-8 lg:text-2xl lg:leading-normal lg:pt-4 lg:tracking-wider xl:leading-relaxed xl:tracking-widest;
+    }
+
+    h2{
+        /* content */
+        @apply font-sans text-2xl text-center mt-16 mb-8 md:tracking-widest lg:text-4xl lg:mb-16 lg:mt-8 uppercase;
+    }
+    p{
+        @apply text-center my-4 w-4/5 mx-auto lg:my-8 lg:w-full lg:text-justify;
+    }
+    .grad-reversed{
+        background: linear-gradient(90deg, #0C0C0C -2.12%, #202020 102.01%);
+    }
+    .grad{
+        background: linear-gradient(-90deg, #0C0C0C -2.12%, #202020 102.01%);
+    }
+    .container{
+        @apply px-8 pb-16 sm:mx-auto lg:w-4/5 lg:pt-16 lg:pb-32;
+    }
+    .side-finger{
+        width: 35vw;
+    }
+    .button{
+        @apply bg-orange text-center border-0 rounded-none mx-auto text-sm p-3 box-border text-black w-32 md:w-48;
+        filter: drop-shadow(0px 10px 18px rgba(0, 0, 0, 0.25));
+    }
+    .input, .textarea{
+        @apply bg-white border-0 rounded-none w-full font-normal text-xs text-black md:text-base xl:text-sm px-3 outline-0 py-3;
+    }
+    input, input:focus-visible{
+        @apply  py-3  border-0;
+    }
+    .textarea, .textarea:focus-visible{
+        @apply my-4 py-3 border-0 md:my-8;
+        resize: none;
+    }
+    .input::placeholder, .textarea::placeholder{
+        @apply text-gray-400;
+    }
+    .submit{
+        @apply bg-black text-white md:bg-orange md:text-black font-serif font-bold;
+        filter: none;
+    }    
+    
+    @media screen(md) {
+        .grid-cols-X21{
+            grid-template-columns: 2fr 1fr;
+        }
+        .grid-cols-X12{
+            grid-template-columns: 1fr 2fr;
+        }
+        .input, .textarea{
+            filter: drop-shadow(0px 10px 18px rgba(0, 0, 0, 0.25));
+        }
+    }
+    
+    @media screen(xl) {
+        p{
+            max-width: 45vw;
+        }
+        .side-finger{
+            width: 30vw;
+        }
+    }
+}
+
+.stripes{
+    @apply grid md:grid-cols-X21 gap-16;
+}
+.stripes-reversed{
+    @apply grid md:grid-cols-X12 gap-16;
+}
+.service-img{
+    @apply hidden md:block;
+}
+.service-img div{
+    @apply bg-contain bg-no-repeat bg-center absolute h-full;
+    width: 33vw;
+}
+
