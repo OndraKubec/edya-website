@@ -14,7 +14,7 @@
 
   <!-- VIDEO -->
 
-  <img src="@/assets/gradient-black.png" alt="" class="w-screen">
+  <img src="@/assets/gradient-black.png" alt="" class="w-screen -mt-1">
 
   <div class="relative">
     <div class="grad-reversed">
@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <img src="@/assets/gradient-black2.png" alt="" class="w-screen">
+  <img src="@/assets/gradient-black2.png" alt="" class="w-screen  -mt-1">
   
   <!-- PHOTO -->
   <div class="relative">
@@ -65,7 +65,7 @@
 
   <!-- DESIGN -->
 
-  <img src="@/assets/gradient-black.png" alt=""  style="transform: scaleX(-1)" class="w-screen">
+  <img src="@/assets/gradient-black.png" alt=""  style="transform: scaleX(-1)" class="w-screen -mt-1">
 
   <div class="relative">
     <div class="grad">
@@ -98,7 +98,7 @@
     </div>
   </div>
 
-  <img src="@/assets/gradient-black2.png" alt=""  style="transform: scaleX(-1)" class="w-screen">
+  <img src="@/assets/gradient-black2.png" alt=""  style="transform: scaleX(-1)" class="w-screen -mt-1">
 
   <!-- PRINT -->
 
@@ -135,7 +135,7 @@
 
   <!-- WEB -->
 
-  <img src="@/assets/gradient-black.png" alt="" class="w-screen">
+  <img src="@/assets/gradient-black.png" alt="" class="w-screen -mt-1">
 
   <div class="relative">
     <div class="grad-reversed">
