@@ -154,26 +154,14 @@
 
   <!-- CONTACT -->
 
-      <div class="hidden md:block absolute drop-shadow right-0 bottom-0 w-screen bg-black pt-32" style="height: 85vh; clip-path: polygon(0 0vw, 30vw 30%, 30vw 100%, 0vw 100%); z-index: 2;">
-        <div class="container">
-          <div class="flex flex-col" style="width:30vw;">
-            <h2 class="text-white w-20">CONTACTS</h2>
-            <div class="flex flex-col">
-              <span class="font-bold text-2xl">Martin Kimla</span>
-              <span class="text-sm text-gray-400 mb-2 -mt-1">ceo & video specialist</span>
-              <a class="" href="mailto:martin.kimla@edya.cz">martin.kimla@edya.cz</a>
-              <a class="" href="tel:+420 732 222 590">+420 732 222 590</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div class="hidden md:block absolute drop-shadow right-0 bottom-0 w-screen " style="height: 30vw; background: #101010; clip-path: polygon(20vw 30vw, 35vw 24.48vw, 35vw 30vw); z-index: 3;"></div>
 
       <div class="relative" style="background-color: #FFB801; clip-path: polygon(0 21vw, 100% 0, 100% 100%, 0 100%); min-height: 21vw">
         <div class="hidden md:block absolute right-0 bottom-0 w-screen" style="height: 30vw; z-index: -1; filter: drop-shadow(0 4px 22px #101010);">
           <div class="w-screen" style="height: 30vw; background: #101010; clip-path: polygon(20vw 30vw, 100vw 0, 100vw 15vw, 60vw 30vw); "></div>
         </div>
-        <div class="container stripes-reversed pt-12 md:pt-48 xl:pt-38 pb-36">
+        <div class="container stripes-reversed pt-12 md:pt-48 xl:pt-38 pb-16 md:pb-36">
             <div class=""></div>
             <div class="flex items-center justify-center">
               <div class="w-4/5">
@@ -191,6 +179,23 @@
             </div>
           </div>
       </div>
+      
+      <div class="bg-orange md:bg-transparent -mt-1">
+        <div class="md:absolute drop-shadow md:right-0 md:bottom-0 w-screen bg-black pt-12 md:pt-32 contact-bar">
+          <div class="container">
+            <div class="flex flex-col contact-bar-width">
+              <h2 class="text-white md:w-20">CONTACTS</h2>
+              <div class="flex flex-col">
+                <span class="font-bold text-xl md:text-2xl text-center md:text-left">Martin Kimla</span>
+                <span class="text-sm text-gray-400 mb-2 -mt-1 text-center md:text-left">ceo & video specialist</span>
+                <a class=" text-center md:text-left" href="mailto:martin.kimla@edya.cz">martin.kimla@edya.cz</a>
+                <a class=" text-center md:text-left" href="tel:+420 732 222 590">+420 732 222 590</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
       
