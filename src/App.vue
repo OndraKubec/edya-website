@@ -16,7 +16,7 @@
 
   <img src="@/assets/gradient-black.png" alt="" class="w-screen -mt-1">
 
-  <div class="relative">
+  <div class="relative overflow-x-clip">
     <div class="grad-reversed">
       <div class="container stripes-reversed">
         <div class="service-img">
@@ -50,7 +50,7 @@
   <img src="@/assets/gradient-black2.png" alt="" class="w-screen  -mt-1">
   
   <!-- PHOTO -->
-  <div class="relative">
+  <div class="relative overflow-x-clip">
     <div class="container stripes">
       <div>
         <h2>Photo</h2>
@@ -67,7 +67,7 @@
 
   <img src="@/assets/gradient-black.png" alt=""  style="transform: scaleX(-1)" class="w-screen -mt-1">
 
-  <div class="relative">
+  <div class="relative overflow-x-clip">
     <div class="grad">
       <div class="container stripes-reversed">
         <div class="service-img">
@@ -102,7 +102,7 @@
 
   <!-- PRINT -->
 
-  <div class="relative">
+  <div class="relative overflow-x-clip">
     <div class="">
       <div class="container stripes">
         <div>

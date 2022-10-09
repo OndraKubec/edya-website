@@ -13,7 +13,7 @@
         color: white;
     }
     html, body{
-        @apply relative z-0 overflow-x-hidden;
+        @apply relative z-0;
         background: linear-gradient(90deg, #262626 5.16%, #101010 98.89%);
     }
     h1{
