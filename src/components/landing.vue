@@ -42,7 +42,7 @@ export default {
 
 <style>
     #landing{
-        background-image: linear-gradient(0deg, #202020, #202020 3%,rgba(0,0,0,0) 30%, rgba(0,0,0,0)) ,url('@/assets/landing.jpg');
+        background-image: linear-gradient(0deg, #202020, #202020 3%,rgba(0,0,0,0) 30%, rgba(0,0,0,0)) ,url('@/assets/landing.png');
         /* background-attachment: fixed; */
         background-repeat: no-repeat;
         background-size: cover;
